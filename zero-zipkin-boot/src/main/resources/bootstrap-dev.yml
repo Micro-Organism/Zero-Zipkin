@@ -1,0 +1,8 @@
+spring:
+    application:
+        name: zero-zipkin-boot
+zipkin:
+    base-url: http://zero.com:9411
+    enabled: true
+    sampler:
+        probability: 1.0
